@@ -1,11 +1,13 @@
 ---
-title: GitHub pages Hexo적용하기
+title: [블로그 만들기] GitHub pages + Hexo
 date: 2016-06-20 16:37:00
 categories: 
 	- Blog
 tags:
 	- hexo
 	- github-pages
+	- git
+	- deployer
 thumbnail: "http://masatolan.com/images/2015/programming/1/hexo-blog-basic1.jpg"
 ---
 ## GitHub Pages 
@@ -26,7 +28,7 @@ GitHub에서 제공하는 페이지 제작 도구로 쉽게 페이지를 만들�
 사이트의 저장소를 위한 브랜치가 `gh-pages`라는 브랜치이여야 합니다. 
 
 
-이 블로그는 개인 사이트 Github Pages로 Github 저장소의 이름을 [simhyejin.github.io](simhyejin.github.io)로 설정하여 만들었습니다. 
+이 블로그는 개인 사이트 Github Pages로 Github 저장소의 이름을 [simhyejin.github.io](https://simhyejin.github.io)로 설정하여 만들었습니다. 
 
 GitHub Pages에 대한 자세한 내용은 [GitHub help](https://help.github.com/categories/github-pages-basics/)에서 확인할 수 잇습니다.
 
@@ -38,9 +40,13 @@ GitHub Pages에 대한 자세한 내용은 [GitHub help](https://help.github.com
 ```bash
 $ npm install hexo-deployer-git --save
 ```
-그 다음 
+---
+**ERROR** Deployer not found: **git**
+>주의! 
+>`hexo-deployer-git`을 설치 하지 않으면 deploy시 위와 같은 ERROR가 발생합니다.
 
-`_config.ym` 파일을 열어 `#deploymeny` 부분을 수정합니다.
+---
+그 다음 `_config.ym` 파일을 열어 `#deploymeny` 부분을 수정합니다.
 
 ```yml
 deploy:
@@ -52,4 +58,9 @@ deploy:
 `repo` 	: GitHub repository URL
 `branch`	: 브랜치 이름 
 `message`	: 커밋 내용. 커스터마이징 가능합니다. (*Site updated:'YYYY-MM-DD HH:mm:ss'* 로 기본 설정되있습니다.)
+
+
+
+
+
 

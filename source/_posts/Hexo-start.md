@@ -1,11 +1,12 @@
 ---
-title: Hexo 정적 블로그 프레임워크
+title: [블로그 만들기] Hexo 정적 블로그 프레임워크
 date: 2016-06-20 14:16:39
 categories: 
 	- Blog
 tags:
 	- blog 
 	- hexo
+	- 정적 블로그 프레임워크
 thumbnail: /css/images/hexo.png
 ---
 
