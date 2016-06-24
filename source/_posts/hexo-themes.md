@@ -11,11 +11,11 @@ tags:
 	- thumbnail
 	- disqus
 	- theme color
-thumbnail: /css/images/hueman.jpg
+thumbnail: /images/hueman.jpg
 sitemap: false
 ---
 
-`Hexo`는 다양한 테마를 지원해 줍니다. [Hexo Themems](https://hexo.io/themes/)에서 원하는 테마를 고를 수 있습니다. 
+`Hexo`는 다양한 테마를 지원해 줍니다. [Hexo Themes](https://hexo.io/themes/)에서 원하는 테마를 고를 수 있습니다. 
 
 데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 **responsive**을 검색하였고 그 중 [Hueman](https://github.com/ppoffice/hexo-theme-hueman)이라는 테마를 적용하엿습니다. 
 
@@ -49,7 +49,7 @@ $ npm install -S hexo-generator-json-content
 ### 설정
 **themes/hueman** 폴더에 있는 `_config.yml`에서 아래의 테마 설정을 바꿀 수 있습니다.
 - Theme 
-	- `Meun`
+	- `Menu`
 	- `Customize`(Logo, Thema Color, Highlight, Sidebar, Thumbnail, Favicon, Social Links)
 - Widgets : Recent Posts, Category, Archive, Tag, Tag Cloud, Links
 - Search 
@@ -87,15 +87,15 @@ Hueman 테마의 `Theme Color`는 오른쪽 사이드바의 `Follow`영역의 �
 customize:
 	thumbnail: true # enable posts thumbnail, options: true, false
 ```
-![thumbnail: false | thumbnail: true](/css/images/thumbnail.png)
+![thumbnail: false | thumbnail: true](/images/thumbnail.png)
 
 - **포스트에 thumbnail  추가하기**
-`themes/hueman/source/css/images`에 이미지 파일을 넣고 포스트 [font-matter](https://hexo.io/docs/front-matter.html)에 `thumbnail`을 추가하고 이미지 경로를 넣어줍니다.
+`source/images`에 이미지 파일을 넣고 포스트 [font-matter](https://hexo.io/docs/front-matter.html)에 `thumbnail`을 추가하고 이미지 경로를 넣어줍니다.
 ```md
 ---
 title: "[블로그 만들기] Hexo 테마 적용하기"
 date: 2016-06-24 16:11:20
-thumbnail: /css/images/hueman.jpg
+thumbnail: /images/hueman.jpg
 ---
 ```
 혹은 이미지 url인 경우에는 `thumbnail`을 추가하고 이미지 경로 url을 넣어줍니다.
@@ -118,9 +118,9 @@ comment:
 **[ShortName 만들기 및 확인하기]**
 먼저 [Disqus](https://disqus.com/) 계정이 있어야합니다. 회원가입 또는 SNS(페이스북, 트위터, 구글)로 로그인 가능합니다.
 0. Get Started 클릭 후 블로그 이름 설정(예시: aaaaba)[※블로그 이름이 Short Name으로 설정됩니다] 
-![](/css/images/Disqus1.png)
+![](/images/Disqus1.png)
 0. 왼쪽 General 클릭하면 ShortName 확인 할수 있습니다.
-![](/css/images/Disqus2.png)
+![](/images/Disqus2.png)
 
 
 

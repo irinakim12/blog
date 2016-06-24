@@ -7,7 +7,7 @@ categories:
 tags:
 	- owasp
 	- security
-thumbnail: /css/images/owasp13.png
+thumbnail: /images/owasp13.png
 sitemap: false
 ---
 
@@ -22,7 +22,7 @@ OWASP([Open Web Application Security Project](https://www.owasp.org/index.php/Ma
 
 ## 2010 과 2013 OWASP TOP 10 비교
 
-![2010 과 2013 OWASP TOP 10 비교](/css/images/owasp10vs13.png)
+![2010 과 2013 OWASP TOP 10 비교](/images/owasp10vs13.png)
 
 ---
 

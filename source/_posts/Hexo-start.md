@@ -7,7 +7,7 @@ tags:
 	- blog 
 	- hexo
 	- 정적 블로그 프레임워크
-thumbnail: /css/images/hexo.png
+thumbnail: /images/hexo.png
 sitemap: false
 ---
 
