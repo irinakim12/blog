@@ -9,7 +9,7 @@ description:
 author: Sim Hyejin
 language: en
 timezone:
-
+    
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://simhyejin.github.io/
@@ -62,6 +62,13 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+Plugins:
+- hexo-generator-sitemap
+
+# sitemap auto generator
+sitemap:
+    path: sitemap.xml
+
 ## Themes: https://hexo.io/themes/
 theme: hueman
 

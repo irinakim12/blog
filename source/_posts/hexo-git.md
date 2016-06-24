@@ -1,5 +1,5 @@
 ---
-title: [블로그 만들기] GitHub pages + Hexo
+title: "[블로그 만들기] GitHub pages + Hexo"
 date: 2016-06-20 16:37:00
 categories: 
 	- Blog
@@ -9,6 +9,7 @@ tags:
 	- git
 	- deployer
 thumbnail: "http://masatolan.com/images/2015/programming/1/hexo-blog-basic1.jpg"
+sitemap: false
 ---
 ## GitHub Pages 
 `GitHub Pages`는 GitHub에서 무료로 호스팅하는 공개 웹페이지입니다. 
@@ -49,6 +50,8 @@ $ npm install hexo-deployer-git --save
 그 다음 `_config.ym` 파일을 열어 `#deploymeny` 부분을 수정합니다.
 
 ```yml
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/Simhyejin/Simhyejin.github.io.git

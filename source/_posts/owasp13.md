@@ -8,6 +8,7 @@ tags:
 	- owasp
 	- security
 thumbnail: /css/images/owasp13.png
+sitemap: false
 ---
 
 ## OWASP
