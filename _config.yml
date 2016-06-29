@@ -4,11 +4,11 @@
 
 # Site
 title: JENNY|개발자
-subtitle: Sim Hyejin's IT blog
-description:
+subtitle: 컴공녀의 개발 블로그
+description: Sim Hyejin's IT, Programming blog
 author: Sim Hyejin
-language: en
-timezone:
+language:
+timezone: Asia/Seoul
     
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -26,6 +26,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -65,10 +66,19 @@ pagination_dir: page
 Plugins:
 - hexo-generator-sitemap
 
+alias:
+  /2016/06/20/hexo-git/index.html: /2016/06/20/hexo-github-pages/index.html
+  /2016/06/20/Hexo-start/index.html: /2016/06/20/blog-start-hexo/index.html
+
 # sitemap auto generator
 sitemap:
     path: sitemap.xml
-
+# rss auto generator    
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+  hub:
 ## Themes: https://hexo.io/themes/
 theme: hueman
 

@@ -1,5 +1,5 @@
 ---
-title: "[블로그 만들기] Hexo 테마 적용하기"
+title: Hexo 테마 적용하기
 date: 2016-06-24 16:11:20
 categories: 
 	- Blog
@@ -12,12 +12,13 @@ tags:
 	- disqus
 	- theme color
 thumbnail: /images/hueman.jpg
-sitemap: false
 ---
+이전 포스트 [Hexo+GitHub pages](https://simhyejin.github.io/2016/06/20/hexo-github-pages/)에서 _Hexo_ 와 _GitHub Pages_를 연동하여 블로그를 만들었습니다. 
 
-`Hexo`는 다양한 테마를 지원해 줍니다. [Hexo Themes](https://hexo.io/themes/)에서 원하는 테마를 고를 수 있습니다. 
-
-데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 **responsive**을 검색하였고 그 중 [Hueman](https://github.com/ppoffice/hexo-theme-hueman)이라는 테마를 적용하엿습니다. 
+이번 포스트는 테마를 바꿔 블로그를 꾸며 보도록 하겠습니다.
+**_Hexo_** 는 다양한 테마를 지원해 줍니다. [Hexo Themes](https://hexo.io/themes/) 에서 원하는 테마를 고를 수 있습니다. 
+데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 **responsive**을 검색하였고 그 중 [Hueman](https://github.com/ppoffice/hexo-theme-hueman)이라는 테마를 적용하엿습니다.
+`Hueman` 테마 적용법과 테마 설정(CSS 수정, Thumbnail, Disqus)에 대해 소개하겠습니다.
 
 ---
 ## Hueman 테마 적용하기
@@ -74,9 +75,10 @@ Hueman 테마의 `Theme Color`는 오른쪽 사이드바의 `Follow`영역의 �
 
 ```styl
 .article-entry
+    //...
     a //링크 
         color: "원하는색상" 
-        
+    //...
 ```
 이 외에도 `styl 파일`을 수정하면 커스터마이징 가능합니다. 
 
@@ -93,7 +95,7 @@ customize:
 `source/images`에 이미지 파일을 넣고 포스트 [font-matter](https://hexo.io/docs/front-matter.html)에 `thumbnail`을 추가하고 이미지 경로를 넣어줍니다.
 ```md
 ---
-title: "[블로그 만들기] Hexo 테마 적용하기"
+title: Hexo 테마 적용하기
 date: 2016-06-24 16:11:20
 thumbnail: /images/hueman.jpg
 ---
@@ -101,7 +103,7 @@ thumbnail: /images/hueman.jpg
 혹은 이미지 url인 경우에는 `thumbnail`을 추가하고 이미지 경로 url을 넣어줍니다.
 ```md
 ---
-title: "[블로그 만들기] Hexo 테마 적용하기"
+title: Hexo 테마 적용하기
 date: 2016-06-24 16:11:20
 thumbnail: https://example.com/image.jpg
 ---
@@ -122,8 +124,10 @@ comment:
 0. 왼쪽 General 클릭하면 ShortName 확인 할수 있습니다.
 ![](/images/Disqus2.png)
 
+---
 
-
+#### [#Blog](https://simhyejin.github.io/tags/blog/) [#Hexo](https://simhyejin.github.io/tags/hexo/)
+< 이전 포스트 [Hexo+GitHub pages](https://simhyejin.github.io/2016/06/20/hexo-github-pages/)
 
 
 

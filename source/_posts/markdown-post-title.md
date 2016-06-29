@@ -6,10 +6,10 @@ tags:
 	- post
 	- title
 	- markdown
+	- square bracket
 categories: 
 - Blog
-thumbnail: /images/title.png
-sitemap: false
+thumbnail: /images/title_markdown_thumbnail.png
 ---
 
 `Hexo`로 블로그를 운영하며 `마크다운(Markdown)`을 사용하여 포스트를 작성하고 있습니다.
