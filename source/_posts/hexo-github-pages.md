@@ -71,6 +71,6 @@ deploy:
 ---
 #### [#Blog](https://simhyejin.github.io/tags/blog/) [#Hexo](https://simhyejin.github.io/tags/hexo/)
 < 이전 포스트 [Hexo 정적 블로그 프레임워크](https://simhyejin.github.io/2016/06/24/hexo-themes/)
-다음 포스트 >  [Hexo 테마 적용하기](https://simhyejin.github.io/2016/06/24/hexo-themes/)
+다음 포스트 > [Hexo 테마 적용하기](https://simhyejin.github.io/2016/06/24/hexo-themes/)
 
 

@@ -69,6 +69,7 @@ Plugins:
 alias:
   /2016/06/20/hexo-git/index.html: /2016/06/20/hexo-github-pages/index.html
   /2016/06/20/Hexo-start/index.html: /2016/06/20/blog-start-hexo/index.html
+  2016/06/30/Markdown-help/index.html: /2016/06/30/Markdown-syntax/index.html
 
 # sitemap auto generator
 sitemap:

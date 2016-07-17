@@ -35,3 +35,7 @@ YAMLException: can not read a block mapping entry; a multiline key may not be an
 ![](/images/post[].png)
 
 문제해결 완료 :)
+
+---
+#### [#Blog](https://simhyejin.github.io/tags/blog/) [#Markdown](https://simhyejin.github.io/tags/markdown/)
+다음 포스트 >  [[Markdown] 마크다운 문법](https://simhyejin.github.io/2016/06/30/Markdown-help/)

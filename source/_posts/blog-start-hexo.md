@@ -10,12 +10,20 @@ tags:
 	- git
 	- Node.js
 	- 헥소
+	- Static Site Generator
 thumbnail: /images/hexo.png
 ---
 
 블로그 시작을 위해 사용하였던 [Hexo](https://hexo.io/) 를 소개합니다.
 
-## Hexo
+---
+- 목차
+	- [Hexo](#hexo)
+	- [Hexo 설치](#hexo-install)
+	- [Hexo 명령어](#hexo-command)
+---
+
+## <div id= "hexo">Hexo
 _**Hexo**_ 는 _Node.js_ 기반 정적 블로그 프레임워크 입니다.
 
 - **마크다운(Markdown)**을 지원하여 손쉬운 포스트 작성 가능 
@@ -26,7 +34,7 @@ _**Hexo**_ 는 _Node.js_ 기반 정적 블로그 프레임워크 입니다.
 **Hexo** 설치와 실행법에 대해 소개하겠습니다.
 
 ---
-## Hexo 설치
+## <div id="hexo-install">Hexo 설치
 **_Hexo_** 를 설치 하기 위해서는 `Node.js`와 `Git`이 설치 되어 있어야합니다.
 아래의 링크를 통해 설치가 가능합니다.
 - [Node.js](https://nodejs.org/en/)
@@ -71,7 +79,7 @@ $ hexo server
 `localhost:4000`을 통해 확인합니다.(기본포트 : 4000)
 
 ---
-## 자주 쓰는 명령어
+## <div id= "hexo-command">자주 쓰는 명령어
 ### New post
 새로운 포스트 생성
 

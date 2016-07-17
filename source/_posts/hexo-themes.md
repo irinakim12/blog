@@ -21,9 +21,17 @@ thumbnail: /images/hueman.jpg
 `Hueman` 테마 적용법과 테마 설정(CSS 수정, Thumbnail, Disqus)에 대해 소개하겠습니다.
 
 ---
-## Hueman 테마 적용하기
+- 목차
+	- [Hueman 테마 적용하기](#hueman)
+		- [Hueman 설치](#hueman-install)
+		- [Hueman 설정](#hueman-config)
+	- [Theme Color](#theme-color)
+	- [Thumbnail](#thumbnail)
+	- [Disqus](#disqus)
+---
 
-### 설치
+## <div id= "hueman">Hueman 테마 적용하기
+### <div id= "hueman-install">설치
 
 1. 터미널을 열어 `hexo init`했던 폴더(이하 **blog** 폴더)에 들어갑니다. Heuman 테마를 `themes/hueman` 폴더에 clone합니다.
 ```bash
@@ -47,7 +55,7 @@ $ git pull
 $ npm install -S hexo-generator-json-content
 ```
 
-### 설정
+### <div id= "hueman-config">설정
 **themes/hueman** 폴더에 있는 `_config.yml`에서 아래의 테마 설정을 바꿀 수 있습니다.
 - Theme 
 	- `Menu`
@@ -60,7 +68,7 @@ $ npm install -S hexo-generator-json-content
 - Miscellaneous
 
 ---
-### - Theme Color
+### <div id= "theme-color">- Theme Color
 저는 제 로고의 보라색을 따와 `Theme Color`를 보라색으로 설정했습니다. 
 Hueman 테마의 `Theme Color`는 오른쪽 사이드바의 `Follow`영역의 색을 바꾸게 해줍니다. 
 또한 `Theme Color`는 이외에도 여러군데 사용이됩니다. 
@@ -83,7 +91,7 @@ Hueman 테마의 `Theme Color`는 오른쪽 사이드바의 `Follow`영역의 �
 이 외에도 `styl 파일`을 수정하면 커스터마이징 가능합니다. 
 
 ---
-#### - Thumbnail
+#### <div id= "thumbnail"> - Thumbnail
 **themes/hueman** 폴더에 있는 `_config.yml`에서 _true_, _false_ 로 설정 할 수 있습니다.
 ```yml
 customize:
@@ -110,7 +118,7 @@ thumbnail: https://example.com/image.jpg
 ```
 
 ---
-#### - Disqus
+#### <div id= "disqus"> - Disqus
 **themes/hueman** 폴더에 있는 `_config.yml`에서 `#Comment` 부분의 _disqus_ 에 _disqus shortname_을 적어줍니다.
 ```yml
 # Comment
@@ -128,7 +136,7 @@ comment:
 
 #### [#Blog](https://simhyejin.github.io/tags/blog/) [#Hexo](https://simhyejin.github.io/tags/hexo/)
 < 이전 포스트 [Hexo+GitHub pages](https://simhyejin.github.io/2016/06/20/hexo-github-pages/)
-
+다음 포스트 > [Hexo Generator Alias](https://simhyejin.github.io/2016/06/30/hexo-generator-alias/)
 
 
 
